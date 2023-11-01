@@ -1,0 +1,83 @@
+/* BoardView.css */
+
+.board-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-column {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  /* Add a box shadow to give the column a more elevated look */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  flex: 1;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.column h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+.task-card {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 0 auto; /* Center the task card horizontally */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the buttons horizontally */
+  justify-content: space-between; /* Distribute the buttons evenly between the top and bottom of the card */
+}
+
+.task-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.task-card p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+}
+
+.edit-button,
+.delete-button,
+.status-button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 0 0.2rem; /* Separation between buttons */
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.edit-button:hover,
+.delete-button:hover,
+.status-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .task-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the buttons horizontally */
+  }
+}

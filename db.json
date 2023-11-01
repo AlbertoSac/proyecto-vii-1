@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "ase k",
+      "description": "ola",
+      "status": "in-progress"
+    },
+    {
+      "id": 2,
+      "title": "Tarea 2",
+      "description": "Descripción de la Tarea 2",
+      "status": "in-progress"
+    },
+    {
+      "title": "Tarea 1",
+      "description": "ola k ase",
+      "status": "todo",
+      "id": 3
+    },
+    {
+      "title": "ola k ase",
+      "description": "ola k ase",
+      "status": "todo",
+      "id": 4
+    }
+  ]
+}
